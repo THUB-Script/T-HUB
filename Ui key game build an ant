@@ -1962,7 +1962,7 @@ end
 -- Rose Eclipse host layout. All ten categories remain reachable in two compact rows.
 ;(function()
  header.Size=UDim2.fromOffset(960,138)
- brand.Text='FYRELITH' brand.Font=Enum.Font.GothamMedium brand.TextSize=30
+ brand.Text='T HUB' brand.Font=Enum.Font.GothamMedium brand.TextSize=30
  brand.Position=UDim2.fromOffset(28,54) brand.Size=UDim2.fromOffset(320,46) brand.TextColor3=Color3.fromRGB(249,229,235)
  brandLogo.Visible=false
  for _,obj in ipairs(header:GetChildren())do if obj:IsA('TextLabel')and obj~=brand then obj.Visible=false end end
@@ -2120,7 +2120,7 @@ end)()
    signature.Position=UDim2.fromOffset(128,104);signature.Size=UDim2.fromOffset(550,30);signature.TextSize=13
    signature.Text='BEYOND LIMITS, ANOTHER TOMORROW.'
   elseif name=='Nebula Violet'then
-   emblem.Visible=false;brand.Text='FYRELITH';brand.Font=Enum.Font.Antique;brand.TextSize=66
+   emblem.Visible=false;brand.Text='T HUB';brand.Font=Enum.Font.Antique;brand.TextSize=66
    brand.Position=UDim2.fromOffset(42,32);brand.Size=UDim2.fromOffset(540,80)
    signature.Position=UDim2.fromOffset(52,116);signature.Size=UDim2.fromOffset(500,28);signature.TextSize=14
    signature.Text='P L A Y   B E Y O N D   L I M I T S'
@@ -2131,7 +2131,7 @@ end)()
    signature.Text='G A M E   U T I L I T Y'
   end
   -- Native text stays crisp at every window scale; decorative image logos are unused.
-  brand.Visible=true;brand.Text='FYRELITH';brand.Font=Enum.Font.GothamMedium;brand.TextSize=28
+  brand.Visible=true;brand.Text='T HUB ';brand.Font=Enum.Font.GothamMedium;brand.TextSize=28
   brand.Position=UDim2.fromOffset(48,55);brand.Size=UDim2.fromOffset(310,48);brand.TextXAlignment=Enum.TextXAlignment.Left
   brand.TextColor3=white;brand.TextStrokeTransparency=1
   brandInk.Color=ColorSequence.new(white,accent:Lerp(white,.55))
